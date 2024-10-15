@@ -1,5 +1,6 @@
-# PyRSS
+*<sub>Python 3.12.3</sub>*
 
+# PyRSS
 PyRSS is an application for reading RSS feeds.
 
 ## Developement
@@ -8,12 +9,21 @@ PyRSS is an application for reading RSS feeds.
 
 #### Required:
 
-- [Poetry](https://python-poetry.org/) package and dependencies manager.
+- [Python 3.12](https://www.python.org/downloads/release/python-3120/)
+- [Poetry](https://python-poetry.org/)
 
-#### Optional:
+#### Optional for [Fish shell](https://fishshell.com/):
 
-- [fish](https://fishshell.com/), the shell I use.
-- [fish-poetry](https://github.com/ryoppippi/fish-poetry), a fish plugin for poetry.
+- [fish-poetry](https://github.com/ryoppippi/fish-poetry)
+
+#### Visual Studio Code extensions:
+
+*<sub>Developed by Microsoft</sub>*
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
+- [Pylint](https://marketplace.visualstudio.com/items?itemName=ms-python.pylint)
+- [Mypy Type Checker](https://marketplace.visualstudio.com/items?itemName=ms-python.mypy-type-checker)
+
 
 ### Clone repository
 
