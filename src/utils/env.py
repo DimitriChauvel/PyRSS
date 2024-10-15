@@ -1,4 +1,4 @@
-"""Module to load environment variables from .env file"""
+"""Env"""
 
 from os import environ
 
