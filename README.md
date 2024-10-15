@@ -41,7 +41,7 @@ poetry install
 At the root of the project, run the following command:
 
 ```sh
-python3 src/main.py
+poetry run start
 ```
 
 ## Dependencies
@@ -51,3 +51,10 @@ python3 src/main.py
 - [mypy](https://mypy.readthedocs.io/en/stable/)
 - [pylint](https://pylint.pycqa.org/)
 - [pytest](https://docs.pytest.org/en/6.2.x/)
+
+### Scripts
+ ```sh
+poetry run lint-fix   # run black on all files
+poetry run lint       # run pylint on all files
+poetry run tests      # run tests with pytest
+```
